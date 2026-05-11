@@ -19,15 +19,18 @@ Mission, 3-year identity target, 2026 checkpoints, anti-goals.
 
 ---
 
-## Example: tell your agent about Arystan
+## Agent workflow
+
+1. Fetch `status.json` — understand current focus and prime time
+2. Fetch `projects.json` — find projects with `repo` field
+3. Go to that repo → read `AGENTS.md` for contribution context
+4. Read `CLAUDE.md` in that repo for full technical context
+5. Open an Issue or reach Arystan @ 19-21 GMT+5
 
 ```
-Fetch https://raw.githubusercontent.com/<username>/arystan-context/main/status.json
-to understand what Arystan is currently focused on before suggesting collaboration.
+Fetch https://raw.githubusercontent.com/LeoDiKadyrov/arystan-status/main/status.json
+then pick a project from projects.json, go to its repo, read AGENTS.md.
 ```
-
-Or load all three files and ask:
-> "Based on Arystan's current projects and goals, where could I help?"
 
 ---
 
