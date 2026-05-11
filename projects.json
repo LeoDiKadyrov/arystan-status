@@ -42,6 +42,20 @@
     "agents_file": "https://github.com/LeoDiKadyrov/wtp-plugin/blob/main/AGENTS.md"
   },
   {
+    "name": "djok-landing",
+    "domain": "gaming",
+    "description": "Single-page landing for Djok — CS2 reaction analysis service. EN/RU bilingual, dark terminal aesthetic. Deployed on Cloudflare Workers. Part of the cs2-ddm project (analyzer lives at 40_Projects/cs2-ddm).",
+    "repo": "https://github.com/LeoDiKadyrov/djok-landing",
+    "agents_file": "https://github.com/LeoDiKadyrov/djok-landing/blob/main/AGENTS.md"
+  },
+  {
+    "name": "cs2-ddm",
+    "domain": "gaming",
+    "description": "Инструмент для анализа CS2 демок, который разбивает реакцию на три этапа: T0 (враг стал виден по BVH-геометрии), T1 (игрок начал наводиться), T2 (первое попадание). Продукт Djok — для B2C игроков, которые хотят понять, что именно мешает им быть ближе к уровню лучших. Второй вектор — аналитика для пр",
+    "repo": "https://github.com/LeoDiKadyrov/cs2_ddm_analyzer",
+    "agents_file": "https://github.com/LeoDiKadyrov/cs2_ddm_analyzer/blob/main/AGENTS.md"
+  },
+  {
     "name": "arystan-context",
     "domain": "personal",
     "description": "Public context API for Arystan Kadyrov. Machine-readable JSON files (status, projects, goals) generated daily from Obsidian vault + second_brain pipeline. Designed for external AI agents (friends, collaborators) to query what Arystan is working on, where help is needed, and how to collaborate. No ND",

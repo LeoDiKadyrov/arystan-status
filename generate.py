@@ -42,6 +42,8 @@ REPOS: dict[str, str] = {
     "psyskills":          "https://github.com/LeoDiKadyrov/psycho-plugin",
     "wtp-plugin":         "https://github.com/LeoDiKadyrov/wtp-plugin",
     "arystan-context":    "https://github.com/LeoDiKadyrov/arystan-status",
+    "cs2-ddm":            "https://github.com/LeoDiKadyrov/cs2_ddm_analyzer",
+    "djok-landing":       "https://github.com/LeoDiKadyrov/djok-landing",
 }
 
 
