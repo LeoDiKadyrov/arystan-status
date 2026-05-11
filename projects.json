@@ -7,12 +7,8 @@
   {
     "name": "health-agent-plugin",
     "domain": "ai",
-    "description": "Claude Code plugin providing health analytics skills. Users run skills like `/analyze`, `/plan-panel`, `/add-result` against their personal health data. Skills compare lab results and training data to 5 longevity protocols: Blueprint, Medicine 3.0, AHA Life's Essential 8, Sinclair, WHO."
-  },
-  {
-    "name": "intercept",
-    "domain": "ai",
-    "description": "<h1 align=\"center\">Interceptor</h1>"
+    "description": "Claude Code plugin providing health analytics skills. Users run skills like `/analyze`, `/plan-panel`, `/add-result` against their personal health data. Skills compare lab results and training data to 5 longevity protocols: Blueprint, Medicine 3.0, AHA Life's Essential 8, Sinclair, WHO.",
+    "repo": "https://github.com/LeoDiKadyrov/health-agent-plugin"
   },
   {
     "name": "arystan_health",
@@ -22,7 +18,8 @@
   {
     "name": "psyskills",
     "domain": "content",
-    "description": "Claude Code plugin for psychotherapists. Provides four structured skills for clinical work: `/psy:conceptualize` (BASIC ID multi-modal case formulation from session transcript), `/psy:goals` (six-criteria goal-setting), `/psy:strategy` (4-step session strategy planning), `/psy:supervise` (4-axis sup"
+    "description": "Claude Code plugin for psychotherapists. Provides four structured skills for clinical work: `/psy:conceptualize` (BASIC ID multi-modal case formulation from session transcript), `/psy:goals` (six-criteria goal-setting), `/psy:strategy` (4-step session strategy planning), `/psy:supervise` (4-axis sup",
+    "repo": "https://github.com/LeoDiKadyrov/psycho-plugin"
   },
   {
     "name": "pongayer",
@@ -32,7 +29,14 @@
   {
     "name": "wtp-plugin",
     "domain": "gaming",
-    "description": "What-To-Play MCP server. 7 tools (Steam library, local scanner, HLTB, OpenCritic, reviews) → персональные рекомендации игр. State в `gaming_profile.json`."
+    "description": "What-To-Play MCP server. 7 tools (Steam library, local scanner, HLTB, OpenCritic, reviews) → персональные рекомендации игр. State в `gaming_profile.json`.",
+    "repo": "https://github.com/LeoDiKadyrov/wtp-plugin"
+  },
+  {
+    "name": "arystan-context",
+    "domain": "personal",
+    "description": "Public context API for Arystan Kadyrov. Machine-readable JSON files (status, projects, goals) generated daily from Obsidian vault + second_brain pipeline. Designed for external AI agents (friends, collaborators) to query what Arystan is working on, where help is needed, and how to collaborate. No ND",
+    "repo": "https://github.com/LeoDiKadyrov/arystan-status"
   },
   {
     "name": "pedigree",
@@ -42,16 +46,19 @@
   {
     "name": "autorss_feed",
     "domain": "productivity",
-    "description": "Personal AI curator pipeline. Pulls posts from Telegram channels, Reddit subreddits, YouTube channels, and IMAP email accounts, scores each for relevance using Claude (batch) or Ollama (qwen2.5:7b), groups curated content by category and topic, and renders a daily Markdown digest with project-aware "
+    "description": "Personal AI curator pipeline. Pulls posts from Telegram channels, Reddit subreddits, YouTube channels, and IMAP email accounts, scores each for relevance using Claude (batch) or Ollama (qwen2.5:7b), groups curated content by category and topic, and renders a daily Markdown digest with project-aware ",
+    "repo": "https://github.com/LeoDiKadyrov/autorss-feed"
   },
   {
     "name": "korzina_weekly",
     "domain": "productivity",
-    "description": "Node.js-проект, автоматизирующий заказ продуктов через приватный API `api.korzinavdom.kz`. Workflow: вытащить историю прошлого заказа → согласовать корзину с пользователем → отправить инкрементальные `PUT`-запросы в `/client/basket/items`."
+    "description": "Node.js-проект, автоматизирующий заказ продуктов через приватный API `api.korzinavdom.kz`. Workflow: вытащить историю прошлого заказа → согласовать корзину с пользователем → отправить инкрементальные `PUT`-запросы в `/client/basket/items`.",
+    "repo": "https://github.com/LeoDiKadyrov/korzina-weekly"
   },
   {
     "name": "second_brain",
     "domain": "productivity",
-    "description": "Pipeline собирает контекст из YouGile + Telegram + Obsidian → `daily-briefing.md`. User-facing guide: `USAGE.md`."
+    "description": "Pipeline собирает контекст из YouGile + Telegram + Obsidian → `daily-briefing.md`. User-facing guide: `USAGE.md`.",
+    "repo": "https://github.com/LeoDiKadyrov/arystan-digital-twin"
   }
 ]

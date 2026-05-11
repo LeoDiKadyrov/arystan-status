@@ -30,8 +30,19 @@ GOALS_FILE = META / "Goals.md"
 OUTPUT = Path(__file__).parent
 
 # NDA + private — never appear in public output
-EXCLUDE_PROJECTS = {"DBO_Faktura_KB", "Digital_ruble", "Olga_reich"}
+EXCLUDE_PROJECTS = {"DBO_Faktura_KB", "Digital_ruble", "Olga_reich", "intercept"}
 EXCLUDE_DOMAINS = {"work"}
+
+# Public GitHub repos (project name → URL)
+REPOS: dict[str, str] = {
+    "autorss_feed":       "https://github.com/LeoDiKadyrov/autorss-feed",
+    "second_brain":       "https://github.com/LeoDiKadyrov/arystan-digital-twin",
+    "korzina_weekly":     "https://github.com/LeoDiKadyrov/korzina-weekly",
+    "health-agent-plugin":"https://github.com/LeoDiKadyrov/health-agent-plugin",
+    "psyskills":          "https://github.com/LeoDiKadyrov/psycho-plugin",
+    "wtp-plugin":         "https://github.com/LeoDiKadyrov/wtp-plugin",
+    "arystan-context":    "https://github.com/LeoDiKadyrov/arystan-status",
+}
 
 
 def _read(path: Path) -> str:
@@ -58,11 +69,14 @@ def load_projects() -> list[dict]:
             desc = m.group(2).strip()
             if name in EXCLUDE_PROJECTS or current_domain in EXCLUDE_DOMAINS:
                 continue
-            projects.append({
+            entry: dict = {
                 "name": name,
                 "domain": current_domain,
                 "description": desc[:300],
-            })
+            }
+            if name in REPOS:
+                entry["repo"] = REPOS[name]
+            projects.append(entry)
 
     return projects
 
