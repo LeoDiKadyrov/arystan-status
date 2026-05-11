@@ -1,0 +1,22 @@
+{
+  "as_of": "2026-05-11",
+  "person": "Arystan Kadyrov",
+  "github": "arystan-context",
+  "location": "Karaganda, Kazakhstan (GMT+5)",
+  "prime_time_gmt5": "19:00-21:00",
+  "active_project_count": 11,
+  "active_threads": [
+    "превращение себя в опенсорс доступный для любого агента",
+    "ddm метрики",
+    "собрать маркетинг и продажную и SEO воронку на примере  cs2-ddm",
+    "neuroband проекты",
+    "ресерч по кс",
+    "это че серафим сделал",
+    "что можно отсюда вынести? Например принципы про открытое обучение",
+    "повторить это исследование в рф"
+  ],
+  "mission_short": "Помочь Казахстану стать серьёзным участником в психологии и смежных секторах — не через лозунги, а через конкретных людей, которые принимают лучшие решения и созидают. Противоположность: донеры, алкаш",
+  "identity_3yr": "Психологический исследователь и практик. Консультирует людей, публикует исследования, строит что-то на пересечении психологии и образования/продукта в Казахстане.",
+  "how_to_collaborate": "Check projects.json for active side projects. Check goals.json for priorities and anti-goals. Best contact window: 19-21 GMT+5 weekdays.",
+  "generated_by": "arystan-context/generate.py"
+}
