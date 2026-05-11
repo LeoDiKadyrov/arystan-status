@@ -76,6 +76,10 @@ def load_projects() -> list[dict]:
             }
             if name in REPOS:
                 entry["repo"] = REPOS[name]
+                entry["agents_file"] = REPOS[name] + "/blob/main/AGENTS.md"
+            else:
+                entry["private"] = True
+                entry["note"] = "No public repo. Exists but not open for external contribution."
             projects.append(entry)
 
     return projects

@@ -2,63 +2,78 @@
   {
     "name": "ai_interview_coach",
     "domain": "ai",
-    "description": "TODO: describe project goal — why it exists, not what code does."
+    "description": "TODO: describe project goal — why it exists, not what code does.",
+    "private": true,
+    "note": "No public repo. Exists but not open for external contribution."
   },
   {
     "name": "health-agent-plugin",
     "domain": "ai",
     "description": "Claude Code plugin providing health analytics skills. Users run skills like `/analyze`, `/plan-panel`, `/add-result` against their personal health data. Skills compare lab results and training data to 5 longevity protocols: Blueprint, Medicine 3.0, AHA Life's Essential 8, Sinclair, WHO.",
-    "repo": "https://github.com/LeoDiKadyrov/health-agent-plugin"
+    "repo": "https://github.com/LeoDiKadyrov/health-agent-plugin",
+    "agents_file": "https://github.com/LeoDiKadyrov/health-agent-plugin/blob/main/AGENTS.md"
   },
   {
     "name": "arystan_health",
     "domain": "content",
-    "description": "Personal health analytics system for Arystан Kadyrov (DOB 30.01.2002, male, 23 y/o). Converts raw medical documents into structured Markdown and JSON, then compares results against the Blueprint longevity protocol in `protocols/blueprint_summary.md`."
+    "description": "Personal health analytics system for Arystан Kadyrov (DOB 30.01.2002, male, 23 y/o). Converts raw medical documents into structured Markdown and JSON, then compares results against the Blueprint longevity protocol in `protocols/blueprint_summary.md`.",
+    "private": true,
+    "note": "No public repo. Exists but not open for external contribution."
   },
   {
     "name": "psyskills",
     "domain": "content",
     "description": "Claude Code plugin for psychotherapists. Provides four structured skills for clinical work: `/psy:conceptualize` (BASIC ID multi-modal case formulation from session transcript), `/psy:goals` (six-criteria goal-setting), `/psy:strategy` (4-step session strategy planning), `/psy:supervise` (4-axis sup",
-    "repo": "https://github.com/LeoDiKadyrov/psycho-plugin"
+    "repo": "https://github.com/LeoDiKadyrov/psycho-plugin",
+    "agents_file": "https://github.com/LeoDiKadyrov/psycho-plugin/blob/main/AGENTS.md"
   },
   {
     "name": "pongayer",
     "domain": "gaming",
-    "description": "You are assisting in the development of **Dialogue Pong** — a multiplayer web-based game that transforms classic Pong into a platform for anonymous dialogue between strangers."
+    "description": "You are assisting in the development of **Dialogue Pong** — a multiplayer web-based game that transforms classic Pong into a platform for anonymous dialogue between strangers.",
+    "private": true,
+    "note": "No public repo. Exists but not open for external contribution."
   },
   {
     "name": "wtp-plugin",
     "domain": "gaming",
     "description": "What-To-Play MCP server. 7 tools (Steam library, local scanner, HLTB, OpenCritic, reviews) → персональные рекомендации игр. State в `gaming_profile.json`.",
-    "repo": "https://github.com/LeoDiKadyrov/wtp-plugin"
+    "repo": "https://github.com/LeoDiKadyrov/wtp-plugin",
+    "agents_file": "https://github.com/LeoDiKadyrov/wtp-plugin/blob/main/AGENTS.md"
   },
   {
     "name": "arystan-context",
     "domain": "personal",
     "description": "Public context API for Arystan Kadyrov. Machine-readable JSON files (status, projects, goals) generated daily from Obsidian vault + second_brain pipeline. Designed for external AI agents (friends, collaborators) to query what Arystan is working on, where help is needed, and how to collaborate. No ND",
-    "repo": "https://github.com/LeoDiKadyrov/arystan-status"
+    "repo": "https://github.com/LeoDiKadyrov/arystan-status",
+    "agents_file": "https://github.com/LeoDiKadyrov/arystan-status/blob/main/AGENTS.md"
   },
   {
     "name": "pedigree",
     "domain": "personal",
-    "description": "Genealogical research project. Builds Kadyrov family tree 7+ generations deep via grandmother interviews (Whisper transcription pipeline), DNA testing (MyHeritage autosomal × 4 + FTDNA Big Y), ЗАГС archives, and oral history. Goal: GEDCOM → web visualization → printed book. Paternal-male Kazakh line"
+    "description": "Genealogical research project. Builds Kadyrov family tree 7+ generations deep via grandmother interviews (Whisper transcription pipeline), DNA testing (MyHeritage autosomal × 4 + FTDNA Big Y), ЗАГС archives, and oral history. Goal: GEDCOM → web visualization → printed book. Paternal-male Kazakh line",
+    "private": true,
+    "note": "No public repo. Exists but not open for external contribution."
   },
   {
     "name": "autorss_feed",
     "domain": "productivity",
     "description": "Personal AI curator pipeline. Pulls posts from Telegram channels, Reddit subreddits, YouTube channels, and IMAP email accounts, scores each for relevance using Claude (batch) or Ollama (qwen2.5:7b), groups curated content by category and topic, and renders a daily Markdown digest with project-aware ",
-    "repo": "https://github.com/LeoDiKadyrov/autorss-feed"
+    "repo": "https://github.com/LeoDiKadyrov/autorss-feed",
+    "agents_file": "https://github.com/LeoDiKadyrov/autorss-feed/blob/main/AGENTS.md"
   },
   {
     "name": "korzina_weekly",
     "domain": "productivity",
     "description": "Node.js-проект, автоматизирующий заказ продуктов через приватный API `api.korzinavdom.kz`. Workflow: вытащить историю прошлого заказа → согласовать корзину с пользователем → отправить инкрементальные `PUT`-запросы в `/client/basket/items`.",
-    "repo": "https://github.com/LeoDiKadyrov/korzina-weekly"
+    "repo": "https://github.com/LeoDiKadyrov/korzina-weekly",
+    "agents_file": "https://github.com/LeoDiKadyrov/korzina-weekly/blob/main/AGENTS.md"
   },
   {
     "name": "second_brain",
     "domain": "productivity",
     "description": "Pipeline собирает контекст из YouGile + Telegram + Obsidian → `daily-briefing.md`. User-facing guide: `USAGE.md`.",
-    "repo": "https://github.com/LeoDiKadyrov/arystan-digital-twin"
+    "repo": "https://github.com/LeoDiKadyrov/arystan-digital-twin",
+    "agents_file": "https://github.com/LeoDiKadyrov/arystan-digital-twin/blob/main/AGENTS.md"
   }
 ]
