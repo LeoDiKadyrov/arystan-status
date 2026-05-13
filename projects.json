@@ -70,6 +70,12 @@
     "note": "No public repo. Exists but not open for external contribution."
   },
   {
+    "name": "moex_tracker",
+    "domain": "finance",
+    "description": "MOEX financial dashboard + personal finance tools. EBITDA screener, sector benchmark, dividend bounce backtester (proves strategy fails on MOEX). Personal layer: IIS-A tax refund calculator (104k/year × 2 accounts), savings tracker toward 1.8M RUB cushion goal by end 2027, portfolio allocator (RUB LQDT/OFZ + USD S&P500 via Freedom Finance KZ), live CBR/Yahoo/CoinGecko rates. FastAPI on port 8001, cross-linked with autorss_feed.",
+    "repo": "https://github.com/LeoDiKadyrov/moex-tracker"
+  },
+  {
     "name": "autorss_feed",
     "domain": "productivity",
     "description": "Personal AI curator pipeline. Pulls posts from Telegram channels, Reddit subreddits, YouTube channels, and IMAP email accounts, scores each for relevance using Claude (batch) or Ollama (qwen2.5:7b), groups curated content by category and topic, and renders a daily Markdown digest with project-aware ",
